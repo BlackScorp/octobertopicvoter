@@ -1,0 +1,24 @@
+{
+    "name": "blackscorp/october-topic-voter",
+    "type": "october-plugin",
+    "description": "topic voter implementation for october CMS",
+    "keywords": ["october", "cms", "topic voter", "plugin"],
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Vitalij Mik",
+            "email": "vitalij@blackscorp.de",
+            "role": "Co-founder"
+        }
+    ],
+    "require": {
+        "php": "~7.4",
+        "blackscorp/topicvoter": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlackScorp\\OctoberTopicVoter\\": ""
+        }
+    }
+}
